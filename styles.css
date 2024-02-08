@@ -1,14 +1,49 @@
 /* Wale */
 
+main {
 
+}
 
+.row {
+    display: flex;
+   border: 3px solid grey;
+    justify-content: space-between;
+    padding: 40px;
 
+}
 
+figure img {
+    border-radius:70px;
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+}
 
+.column1 title{
+  margin: 93px;
+}
+.column2 title {
+    margin: 2px;
 
+}
 
+.row p {
+flex-direction: column;
+    display: flex;
+    margin:2px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.row title {
+    display: flex;
+    flex-direction: column
+}
 
-
-
+.row title {
+    display: flex;
+    margin: 34px;
+    padding: 34px;
+}
 
 /* Reshma */
