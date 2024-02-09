@@ -1,49 +1,107 @@
 /* Wale */
 
-main {
+
+.blocks {
+
+    display: flex;
+}
+
+.block-items {
+    display: flex;
+}
+section {
+
+    color: #858585;
+    font: 15px;
+    background: #ffffff;
+    padding: 37px;
+}
+
+.column {
+    display: flex;
+    background-color: #ffffff;
+   
+
+}
+
+.row .column figure {
+    background-color:grey
+margin: 3px;
+}
+
+
+.btn1{ 
+    text-shadow:none;
+	color:#272727;
+	border-radius:0;
+	background:#nonbox-shadow:none;
+	display:inline-block;
+	padding:0;
+	font:italic 20px/28px Georgia;
+	margin:0;e;
+	border:0;
+-webkit-transition:all .25s;
+transition:all .25s
+}
+.col1 figure img {
+    display: flex;
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    margin: 32px;
+
+
+}
+
+.col2 figure img {
+    display: flex;
+    float: left;
+    border-radius: 75px;
+    justify-content: space-between;
+    margin: 32px;
+    padding: 2px
+
+}
+
+.title span {
+
+    background-color: antiquewhite;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.title h2{
+    font-size: medium;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.col1 figure img {
+    display: flex;
+    float: left;
+    border-radius: 75px;
+    justify-content: space-between;
+    margin: 32px;
+    padding: 2px
+
+}
+.title h2 {
+ 
+    font:4px;
+    display: flex;
+    padding: 8px;
+}
+.row p {
+flex-direction: column;
+    display: flex;
 
 }
 
 .row {
-    display: flex;
-   border: 3px solid grey;
-    justify-content: space-between;
-    padding: 40px;
-
-}
-
-figure img {
-    border-radius:70px;
-    display: flex;
-    flex-direction: column;
     margin: 12px;
-}
+    background-color: beige;
 
-.column1 title{
-  margin: 93px;
-}
-.column2 title {
-    margin: 2px;
-
-}
-
-.row p {
-flex-direction: column;
-    display: flex;
-    margin:2px;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    justify-content: center;
-    align-items: center;
-}
-.row title {
-    display: flex;
-    flex-direction: column
-}
-
-.row title {
-    display: flex;
-    margin: 34px;
-    padding: 34px;
+    padding: 23px;
 }
 
 /* Reshma */
