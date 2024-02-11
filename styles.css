@@ -86,7 +86,7 @@ align-items: center;
 padding: 35px;
 padding-top: 0.5rem;
 padding-bottom: 0.5rem;
-color: var(--bs-secondary-color);
+color: #333;
 text-align: left;
 
 }
@@ -107,10 +107,11 @@ text-align: left;
 }
 
 .block-items img {
-   border-radius: 125px;
+
 background: #fafafa;
-   margin: 25px;
-   padding: 5px;
+margin: 123px;
+image-resolution: 12px;
+   
 
 }
 .col2 figure img {
@@ -132,7 +133,7 @@ background: #fafafa;
 
 }
 
-.title h2{
+.title p {
     font-size: medium;
     font-family: Georgia, Times, 'Times New Roman', serif;
     -webkit-text-decoration: underline dotted;
@@ -276,6 +277,39 @@ transition:all .25s
     padding: 23px;
 }
 
+.dropdown.description {
+    display: flex;
+    background-color: green;
+
+}
+
+
+.container1 {
+    max-width: 800px;
+    margin: 2px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
 
 
 
