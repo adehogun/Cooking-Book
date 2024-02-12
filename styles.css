@@ -1,49 +1,316 @@
 /* Wale */
 
-main {
 
-}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 32px;
+  }
 
-.row {
+  .TheDropDown {
     display: flex;
-   border: 3px solid grey;
+    position: relative;
+    display: inline-block;
+  }
+
+  
+.blocks {
+    display: flex;
     justify-content: space-between;
-    padding: 40px;
+    align-items: center;
+    /* margin: 100px; */
 
 }
 
-figure img {
-    border-radius:70px;
+.block-items {
+
+}
+
+
+.dropdown-content {
+    display: none; /* Initially hidden */
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 4px; /* Adjust as needed */
+  }
+
+  .dropdown-content a {
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+
+  }
+
+  body {
+  
+  }
+
+  btn-primary {
+
+    position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+
+  }
+    
+section {
+    color: #858585;
+    font: 12px;
+    background: #ffffff;
+    padding: 34px;
+}
+
+.column {
     display: flex;
-    flex-direction: column;
-    margin: 12px;
-}
-
-.column1 title{
-  margin: 93px;
-}
-.column2 title {
-    margin: 2px;
+    background-color: #ffffff;
+   
 
 }
 
+.caption  {
+background: #fafafa;
+margin: 20px;
+align-items: center;
+padding: 35px;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+color: #333;
+text-align: left;
+
+}
+
+.title {
+    display: flex;
+        margin-top:25px;
+        margin-bottom: 2rem;
+        font-size: 2.25rem;
+        align-items: center;
+        justify-content: space-between;
+   
+}
+
+.blocks{
+    margin: 23px;
+
+}
+
+.block-items img {
+
+background: #fafafa;
+margin: 123px;
+image-resolution: 12px;
+   
+
+}
+.col2 figure img {
+    display: flex;
+    float: left;
+    border-radius: 75px;
+    justify-content: space-between;
+    margin: 32px;
+    padding: 2px
+
+}
+
+.title span {
+
+    background-color: antiquewhite;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+.title p {
+    font-size: medium;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+.col1 figure img {
+    display: flex;
+    float: left;
+    border-radius: 75px;
+    justify-content: space-between;
+    margin: 32px;
+    padding: 2px
+
+}
+
+.thumbpad1 {
+    background-image: url("./notebook-with-tomatoes-wooden-bottom.jpg");
+    background-size:cover;
+    background-repeat: var(--bs-gutter-y);
+    background-image: linear-gradient(2);
+}
+
+.thumbnail{
+    padding:4px;
+    display: block;
+    margin-bottom: 21px;
+    background-color: #fbfbfb;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+
+}
+
+.thumbpad2 .thumbnail{
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border: 0;
+    padding: 34px 0 0;
+    background: 0 0;
+    -webkit-box-shadow: 1px 1px 5px 0.8px rgba(0, 0, 0, .1);
+    box-shadow: 1px 1px 5px 0.8px rgba(0, 0, 0, .1);
+    border-bottom: 10px solid #fff;
+    text-align: center;
+
+
+}
+
+.thumbnail .caption{
+    padding: 0 40px 35px;
+    text-align: left;
+}
+
+
+.thumbpad2 .thumbnail .caption .title {
+    font:italic 22px Georgia;
+	color:#414141;
+	border-bottom:1px solid #e8e8e8;
+	padding-bottom:13px;
+	margin-bottom:20px
+}
+.title h2 {
+ 
+    font:4px;
+    display: flex;
+    padding: 8px;
+}
 .row p {
 flex-direction: column;
     display: flex;
-    margin:2px;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    justify-content: center;
-    align-items: center;
-}
-.row title {
-    display: flex;
-    flex-direction: column
+
 }
 
-.row title {
-    display: flex;
-    margin: 34px;
-    padding: 34px;
+.btn-default.btn1 {
+	box-shadow:none;
+	text-decoration:none!important;
+	display:inline-block;
+	padding:0;
+	font:italic 20px/28px Georgia;
+	margin:0;
+	text-shadow:none;
+	color:#272727;
+	border-radius:0;
+	background:#none;
+	border:0;
+-webkit-transition:all .25s;
+transition:all .25s
 }
+
+.btn-default.btn1:hover {
+    color:#fcbc3e;
+	background:0 0;
+	text-decoration:none!important;
+-webkit-transition:all .25s;
+transition:all .25s
+}
+
+btn-default.btn1:hover span {
+    -webkit-transition:all .25s;
+    transition:all .25s;
+        background:#f84f1d
+}
+    
+.btn-default.btn2 {
+	box-shadow:none;
+	text-decoration:none!important;
+	display:inline-block;
+	padding:0 18px;
+	font:bold italic 15px/36px Georgia;
+	margin:0;
+	text-shadow:none;
+	color:#fff;
+	border-radius:2px;
+	background:#383838;
+	border:0;
+-webkit-transition:all .25s;
+transition:all .25s
+}
+.btn-default.btn2:hover {
+	color:#fff;
+	background:#fcbc3e;
+	text-decoration:none!important;
+-webkit-transition:all .25s;
+transition:all .25s
+}
+
+
+
+
+
+.row {
+
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+    padding: 23px;
+}
+
+.dropdown.description {
+    display: flex;
+    background-color: green;
+
+}
+
+
+.container1 {
+    max-width: 800px;
+    margin: 2px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+
+
 
 /* Reshma */
