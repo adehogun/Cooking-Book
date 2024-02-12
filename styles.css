@@ -1,4 +1,44 @@
-/* Wale */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100%; */
+}
+.headerclass img{
+    background-color: azure;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+ .navbar-nav {
+    background-color: aquamarine;
+    overflow: hidden;
+    list-style-position: inside;
+    float: left;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    
+}
+.navbar-nav li a{
+    font-size:x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0c0c0c;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+hr {
+
+    border: 0;
+   clear:both;
+   display:block;
+   width: 80%;               
+   background-color:rgb(163, 166, 166);
+   height: 1px;
+   margin-bottom:0.5em;
+ }
 
 
 
@@ -12,4 +52,3 @@
 
 
 
-/* Reshma */
